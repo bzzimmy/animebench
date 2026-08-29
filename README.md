@@ -1,12 +1,26 @@
-# AnimeBench
+<p align="center">
+  <img src="assets/logo.png" alt="AnimeBench logo" width="160">
+</p>
+
+<h1 align="center">AnimeBench</h1>
 
 AnimeBench is a Python benchmark for measuring detailed anime knowledge in AI models. It focuses on specific, non-surface-level questions that are difficult to answer through guessing alone.
 
-The initial dataset will contain **50 questions across five anime** (10 per title).
+The initial public dataset will contain **50 questions** (10 per title) across:
+
+- [*My Hero Academia*](https://myanimelist.net/anime/31964/Boku_no_Hero_Academia)
+- [*Re:Zero − Starting Life in Another World*](https://myanimelist.net/anime/31240/Re_Zero_kara_Hajimeru_Isekai_Seikatsu)
+- [*Attack on Titan*](https://myanimelist.net/anime/16498/Shingeki_no_Kyojin)
+- [*Made in Abyss*](https://myanimelist.net/anime/34599/Made_in_Abyss)
+- [*Jujutsu Kaisen*](https://myanimelist.net/anime/40748/Jujutsu_Kaisen)
+
+All questions, reference answers, rubrics, and sources will be publicly available and versioned.
 
 ## Benchmark design
 
 AnimeBench uses **free-form answers only**, limited to 100 words. This tests recall without revealing possible answers.
+
+Questions may cover the anime adaptation or its primary published source: manga for four selected titles and the light novel for *Re:Zero*. Every question must label the exact source and cutoff; web novels, spin-offs, and other secondary canon are excluded.
 
 Each question should define:
 
@@ -51,7 +65,7 @@ python -m unittest discover -s tests
 
 ## Next steps
 
-1. Select five titles and define the allowed canon for each.
+1. Define the source cutoff for each title.
 2. Draft and source 10 questions per title.
 3. Human-review each reference answer and rubric.
 4. Define the dataset schema before implementing model or judge integrations.
