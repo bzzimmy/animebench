@@ -22,7 +22,7 @@ AnimeBench uses **free-form answers only**, limited to 100 words. This tests rec
 
 Questions may cover the anime adaptation or its primary published source: manga for four selected titles and the light novel for *Re:Zero*. Every question must label the exact source and cutoff; web novels, spin-offs, and other secondary canon are excluded.
 
-Each question should define:
+Questions are authored as YAML files in `data/questions/`. Each question defines:
 
 - the title and canon source being tested (anime, manga, or another source);
 - a source cutoff, such as an episode or chapter;
@@ -49,7 +49,7 @@ The judge should not receive the candidate model's identity. Judge model/version
 
 ## Status
 
-The Python package and placeholder CLI are scaffolded. The dataset, model runner, judge integration, and scoring implementation have not been built yet.
+The Python package and placeholder CLI are scaffolded. The 10-question *My Hero Academia* set is complete; the other four title sets remain. Model runner, judge integration, and scoring have not been built yet.
 
 ## Development
 

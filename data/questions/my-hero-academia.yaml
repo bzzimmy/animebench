@@ -1,0 +1,474 @@
+schema_version: 1
+
+title: My Hero Academia
+slug: my-hero-academia
+mal_url: https://myanimelist.net/anime/31964/Boku_no_Hero_Academia
+
+questions:
+  - id: mha-001
+    source:
+      medium: anime
+      cutoff: "Episode 167 — Izuku Midoriya: Rising"
+      adapted_from: "Manga Chapter 423 — One For All vs. All For One"
+
+    prompt: >-
+      By the end of My Hero Academia, what personal reason is revealed to be
+      behind All For One's desire to take One For All?
+
+    answer_limit_words: 100
+
+    reference_answer: >-
+      All For One ultimately wanted One For All because it retained Yoichi,
+      his younger brother, as a vestige. He wanted to reclaim and possess
+      Yoichi, whom he treated as something that belonged to him. Although All
+      For One called this love, his behavior revealed a controlling obsession
+      rather than selfless brotherly love.
+
+    rubric:
+      required_facts:
+        - One For All retained a vestige or remaining piece of Yoichi.
+        - All For One wanted to reclaim, possess, or control his brother through it.
+        - His professed love for Yoichi was possessive or obsessive.
+
+      acceptable_variants:
+        - Describing the motive as twisted love, fixation, or an inability to let Yoichi go.
+        - Saying that All For One wanted to reunite with Yoichi, if the answer makes the possessive nature of that desire clear.
+
+      contradictions:
+        - Claiming his sole underlying motive was gaining power or defeating All Might.
+        - Claiming he wanted to free Yoichi or honor Yoichi's wishes.
+        - Describing his treatment of Yoichi as healthy or selfless love.
+
+    provenance:
+      - label: "Official anime page: Episode 167"
+        url: https://heroaca.com/episodes/final/ep167/
+      - label: "Official VIZ release: Manga Chapter 423"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-423/chapter/42810
+      - label: "Episode 167 adaptation and plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Episode_167
+      - label: "Chapter 423 plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Chapter_423
+
+  - id: mha-002
+    source:
+      medium: anime
+      cutoff: "Episode 140 — Specter"
+      adapted_from: "Manga Chapters 333–334"
+
+    prompt: >-
+      Why did New Order ultimately disappear after being stolen from Star and
+      Stripe?
+
+    answer_limit_words: 100
+
+    reference_answer: >-
+      Immediately before New Order was stolen, Star and Stripe imposed a final
+      rule that New Order would revolt against other Quirks. Inside Shigaraki,
+      it attacked the stockpiled Quirks, but those Quirks also fought back.
+      Because New Order was itself a Quirk, it was destroyed during this
+      conflict after taking several of them with it.
+
+    rubric:
+      required_facts:
+        - Star and Stripe ordered New Order to revolt against other Quirks before it was stolen.
+        - New Order attacked the stockpiled Quirks inside Shigaraki.
+        - Those Quirks destroyed New Order because it was itself a Quirk.
+
+      acceptable_variants:
+        - Describing the event as New Order and the stolen Quirks destroying one another.
+        - Referring to Star and Stripe's vestige as the force attacking the other Quirks.
+
+      contradictions:
+        - Claiming that Shigaraki or All For One failed to steal New Order.
+        - Claiming that New Order disappeared solely because Star and Stripe died.
+        - Claiming that New Order was successfully transferred to another person.
+
+    provenance:
+      - label: "Official anime page: Episode 140"
+        url: https://heroaca.com/episodes/7th/ep140/
+      - label: "Official VIZ release: Manga Chapter 333"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-333/chapter/23565
+      - label: "Official VIZ release: Manga Chapter 334"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-334/chapter/23587
+      - label: "Episode 140 adaptation and plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Episode_140
+
+  - id: mha-003
+    source:
+      medium: anime
+      cutoff: "Episode 119 — Encounter, Part 2"
+      adapted_from: "Manga Chapter 275 — Encounter, Part 2"
+
+    prompt: >-
+      Tomoko Shiretoko, better known as Ragdoll, lost her Quirk after the
+      forest training camp. What was the Quirk, who took it, and how was it
+      later used against Deku?
+
+    answer_limit_words: 100
+
+    reference_answer: >-
+      Her Quirk was Search, which could track people and reveal their
+      locations and weaknesses. All For One stole it after Ragdoll was
+      kidnapped, leaving her Quirkless. It was later transferred to Tomura
+      Shigaraki and retained the data Ragdoll had gathered about Deku during
+      the training camp, allowing Shigaraki to locate him during the
+      Paranormal Liberation War.
+
+    rubric:
+      required_facts:
+        - The Quirk was Search.
+        - All For One stole it from Ragdoll after she was kidnapped.
+        - Tomura Shigaraki later possessed it and used Ragdoll's stored data to locate Deku.
+
+      acceptable_variants:
+        - Describing Search as tracking people's locations, weaknesses, or both.
+        - Saying Search was among the stockpiled Quirks transferred to or inherited by Shigaraki.
+        - Referring to the Paranormal Liberation War as the hospital raid or Shigaraki's awakening.
+
+      contradictions:
+        - Claiming that Ragdoll voluntarily gave away Search.
+        - Claiming that Search was destroyed when it was taken from Ragdoll.
+        - Claiming that All For One used Search only to remove Ragdoll from the battle.
+
+    provenance:
+      - label: "Tomoko Shiretoko character and Quirk summary"
+        url: https://myheroacademia.fandom.com/wiki/Tomoko_Shiretoko
+      - label: "Official anime page: Episode 47"
+        url: https://heroaca.com/episodes/3rd/ep47/
+      - label: "Official anime page: Episode 119"
+        url: https://heroaca.com/episodes/6th/ep119/
+      - label: "Official VIZ release: Manga Chapter 275"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-275/chapter/20731
+      - label: "Episode 119 adaptation and plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Episode_119
+
+  - id: mha-004
+    source:
+      medium: anime
+      cutoff: "Episode 157 — I Am Here"
+      adapted_from: "Manga Chapter 387 — Congealing"
+
+    prompt: >-
+      Did Dabi ever exhibit ice or frost abilities alongside his fire in My
+      Hero Academia? Explain when and how.
+
+    answer_limit_words: 100
+
+    reference_answer: >-
+      Yes. During the Final War, while Dabi was at the brink of death, ice
+      manifested on his chest within his fiery Phosphor state. Endeavor
+      recognized it as a latent element inherited from Dabi's mother, Rei, and
+      the Himura side of the family. The story distinguishes this
+      crisis-driven manifestation at death's door from a conventional Quirk
+      Awakening.
+
+    rubric:
+      required_facts:
+        - Dabi did manifest ice or frost alongside his fire.
+        - The ice came from his mother Rei or the Himura side of his family.
+        - It emerged during the Final War when Dabi was at the brink of death.
+
+      acceptable_variants:
+        - Describing the ice as a latent inherited ability within Dabi's Quirk.
+        - Calling it a Quirk Awakening colloquially, if the near-death condition and maternal origin are otherwise clear.
+        - Mentioning the ice forming on Dabi's chest or helping cool him internally.
+
+      contradictions:
+        - Claiming that Dabi never exhibited ice or frost at any point.
+        - Claiming that All For One gave Dabi a separate ice Quirk.
+        - Claiming that Dabi copied or stole the ability from Shoto.
+
+    provenance:
+      - label: "Official anime page: Episode 157"
+        url: https://heroaca.com/episodes/7th/ep157/
+      - label: "Official VIZ release: Manga Chapter 387"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-387/chapter/38702
+      - label: "Episode 157 adaptation and plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Episode_157
+      - label: "Chapter 387 plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Chapter_387
+
+  - id: mha-005
+    source:
+      medium: anime
+      cutoff: "Episode 141 — Villain"
+      adapted_from: "Manga Chapter 336 — Villain"
+
+    prompt: >-
+      Which Class 1-A student secretly passed U.A. information to All For One,
+      and what prior arrangement allowed All For One to coerce the student's
+      family?
+
+    answer_limit_words: 100
+
+    reference_answer: >-
+      The student was Yuga Aoyama. He was born Quirkless, so his parents
+      approached All For One, who gave him Navel Laser. All For One later used
+      that arrangement and threats against the family to force Aoyama to pass
+      him information about U.A., including information concerning the U.S.J.
+      and forest training camp. Aoyama acted under coercion rather than out of
+      loyalty to the villains.
+
+    rubric:
+      required_facts:
+        - The student was Yuga Aoyama.
+        - Aoyama was born Quirkless and received Navel Laser from All For One after his parents sought help.
+        - All For One used the arrangement and threats against Aoyama's family to coerce him into providing information.
+
+      acceptable_variants:
+        - Referring to Aoyama as Can't Stop Twinkling.
+        - Mentioning the U.S.J. incident, forest training camp, or both as information he provided.
+        - Describing Aoyama as an unwilling spy, mole, or traitor.
+
+      contradictions:
+        - Identifying Toru Hagakure or another student as the actual traitor.
+        - Claiming that Aoyama naturally inherited Navel Laser.
+        - Claiming that Aoyama willingly supported All For One's goals without coercion.
+
+    provenance:
+      - label: "Official anime page: Episode 141"
+        url: https://heroaca.com/episodes/7th/ep141/
+      - label: "Official VIZ release: Manga Chapter 336"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-336/chapter/23639
+      - label: "Episode 141 adaptation and plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Episode_141
+      - label: "Chapter 336 plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Chapter_336
+      - label: "Yuga Aoyama character summary"
+        url: https://myheroacademia.fandom.com/wiki/Yuga_Aoyama
+
+  - id: mha-006
+    source:
+      medium: anime
+      cutoff: "Episode 134 — The Lovely Lady Nagant"
+      adapted_from: "Manga Chapter 314 — The Lovely Lady Nagant"
+
+    prompt: >-
+      Why was Lady Nagant actually sent to Tartarus, and what explanation was
+      given to the public?
+
+    answer_limit_words: 100
+
+    reference_answer: >-
+      After years of performing secret assassinations for the Hero Public
+      Safety Commission, Lady Nagant became disillusioned and resisted another
+      assignment. When the Commission president threatened her for trying to
+      walk away, she killed him. The Commission concealed the truth and told
+      the public that she had murdered another hero following a dispute.
+
+    rubric:
+      required_facts:
+        - Lady Nagant killed the president or chairman of the Hero Public Safety Commission.
+        - She acted after years as the Commission's secret assassin and after being threatened when she resisted or tried to leave.
+        - The public was falsely told that she had killed a fellow hero, commonly described as occurring after a dispute.
+
+      acceptable_variants:
+        - Referring to the victim as the Commission president, chairman, leader, or superior.
+        - Describing Nagant as disillusioned by the Commission's extrajudicial killings and cover-ups.
+        - Saying the Commission fabricated or concealed the circumstances of the killing.
+
+      contradictions:
+        - Claiming that Nagant was imprisoned merely for carrying out the Commission's sanctioned assassinations.
+        - Claiming that the person she actually killed was an unrelated Pro Hero rather than the Commission president.
+        - Claiming that the Commission publicly admitted its use of Nagant as an assassin.
+
+    provenance:
+      - label: "Official anime page: Episode 134"
+        url: https://heroaca.com/episodes/6th/ep134/
+      - label: "Official VIZ release: Manga Chapter 314"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-314/chapter/22598
+      - label: "Episode 134 adaptation and plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Episode_134
+      - label: "Chapter 314 plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Chapter_314
+      - label: "Lady Nagant character summary"
+        url: https://myheroacademia.fandom.com/wiki/Kaina_Tsutsumi
+
+  - id: mha-007
+    source:
+      medium: anime
+      cutoff: "Episode 131 — Izuku Midoriya and Tomura Shigaraki"
+      adapted_from: "Manga Chapter 304 — Izuku Midoriya and Toshinori Yagi"
+
+    prompt: >-
+      Why did One For All shorten Hikage Shinomori's lifespan while All Might
+      could carry it for decades without suffering the same effect?
+
+    answer_limit_words: 100
+
+    reference_answer: >-
+      Hikage already possessed Danger Sense when he inherited One For All. As
+      One For All accumulated power, adding it to an existing Quirk overloaded
+      his body's capacity and accelerated his aging, causing him to die at
+      forty. All Might was born Quirkless, so his body acted as an empty vessel
+      that could contain One For All without the same lifespan cost.
+
+    rubric:
+      required_facts:
+        - Hikage already had Danger Sense when he inherited One For All.
+        - Holding One For All alongside an existing Quirk overloaded his body and shortened his lifespan.
+        - All Might was Quirkless, making him an empty vessel able to carry One For All without accelerated aging.
+
+      acceptable_variants:
+        - Describing Hikage's death at forty as accelerated aging or dying of old age.
+        - Explaining the overload with the vessel or overflowing-cup analogy used in the story.
+        - Mentioning that Deku was also a suitable vessel because he was born Quirkless.
+
+      contradictions:
+        - Claiming that Hikage died from a battle injury or from All For One attacking him.
+        - Claiming that Danger Sense alone naturally shortened Hikage's lifespan.
+        - Claiming that All Might avoided the effect because of his muscular physique or superior technique.
+
+    provenance:
+      - label: "Official anime page: Episode 131"
+        url: https://heroaca.com/episodes/6th/ep131/
+      - label: "Official VIZ release: Manga Chapter 304"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-304/chapter/22161
+      - label: "Episode 131 adaptation and plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Episode_131
+      - label: "Chapter 304 plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Chapter_304
+      - label: "One For All history and limitations"
+        url: https://myheroacademia.fandom.com/wiki/One_For_All
+
+  - id: mha-008
+    source:
+      medium: anime
+      cutoff: "Episode 107 — More of a Hero Than Anyone"
+      adapted_from: "Manga Chapters 253–255"
+
+    prompt: >-
+      What was Kurogiri's original identity, and how was that person's Quirk
+      used to create Warp Gate?
+
+    answer_limit_words: 100
+
+    reference_answer: >-
+      Kurogiri was created from the corpse of Oboro Shirakumo, Aizawa and
+      Present Mic's friend from U.A. Doctor Garaki and All For One converted
+      his body into a Nomu. Kurogiri's Warp Gate is an artificial composite of
+      multiple Quirk factors built with Oboro's Cloud Quirk as its base.
+
+    rubric:
+      required_facts:
+        - Kurogiri's original body and identity belonged to Oboro Shirakumo.
+        - Oboro was Aizawa and Present Mic's deceased U.A. classmate whose corpse was made into a Nomu.
+        - Oboro's Cloud Quirk formed the base of the artificial composite Quirk Warp Gate.
+
+      acceptable_variants:
+        - Crediting Doctor Kyudai Garaki, All For One, or both with creating Kurogiri.
+        - Referring to Present Mic by his real name, Hizashi Yamada.
+        - Saying multiple Quirks or Quirk factors were fused with Cloud to produce Warp Gate.
+
+      contradictions:
+        - Claiming that Oboro willingly became Kurogiri.
+        - Claiming that Warp Gate was Oboro's original Quirk without modification.
+        - Claiming that Kurogiri merely copied Oboro while using an unrelated body.
+
+    provenance:
+      - label: "Official anime page: Episode 107"
+        url: https://heroaca.com/episodes/5th/ep107/
+      - label: "Official VIZ release: Manga Chapter 253"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-253/chapter/19693
+      - label: "Official VIZ release: Manga Chapter 254"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-254/chapter/19758
+      - label: "Official VIZ release: Manga Chapter 255"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-255/chapter/19779
+      - label: "Episode 107 adaptation and plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Episode_107
+      - label: "Kurogiri identity and Quirk summary"
+        url: https://myheroacademia.fandom.com/wiki/Kurogiri
+
+  - id: mha-009
+    source:
+      medium: anime
+      cutoff: "Episode 166 — From Aizawa"
+      adapted_from: "Manga Chapter 419 — Design"
+
+    prompt: >-
+      What was the true origin of Tenko Shimura's Decay, and what capability
+      had been removed from the Quirk it was derived from?
+
+    answer_limit_words: 100
+
+    reference_answer: >-
+      Decay was not Tenko's natural Quirk. All For One stole Tenko's original,
+      still-undeveloped Quirk factor and later secretly gave him Decay. Doctor
+      Garaki created Decay from a modified duplicate of Kai Chisaki's Overhaul,
+      removing its ability to restore or reassemble what it destroyed and
+      leaving only its destructive side.
+
+    rubric:
+      required_facts:
+        - All For One stole Tenko's original Quirk factor and later gave him Decay.
+        - Decay was derived from a modified copy of Kai Chisaki's Overhaul.
+        - Overhaul's restoration or reassembly capability was removed, leaving Decay purely destructive.
+
+      acceptable_variants:
+        - Crediting Doctor Garaki with copying and modifying Overhaul.
+        - Describing the removed capability as reconstruction, restoration, repair, or reversal.
+        - Mentioning that All For One transferred Decay while walking the young Tenko home.
+
+      contradictions:
+        - Claiming that Decay was Tenko's natural mutation.
+        - Claiming that Kai Chisaki personally transferred Overhaul to Tenko.
+        - Claiming that Decay retained Overhaul's ability to reconstruct what it destroyed.
+
+    provenance:
+      - label: "Official anime page: Episode 166"
+        url: https://heroaca.com/episodes/final/ep166/
+      - label: "Official VIZ release: Manga Chapter 419"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-419/chapter/42402
+      - label: "Episode 166 adaptation and plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Episode_166
+      - label: "Chapter 419 plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Chapter_419
+      - label: "Decay origin and mechanics"
+        url: https://myheroacademia.fandom.com/wiki/Decay
+
+  - id: mha-010
+    source:
+      medium: anime
+      cutoff: "Episode 162 — The Final Boss!!"
+      adapted_from: "Manga Chapter 405 — The Final Boss!!"
+
+    prompt: >-
+      How did Edgeshot keep Bakugo's body viable after his fatal injury, and
+      what ultimately restarted Bakugo's heart?
+
+    answer_limit_words: 100
+
+    reference_answer: >-
+      Edgeshot flattened his own body into thread, entered Bakugo, and used
+      himself to stitch and hold together Bakugo's damaged organs and bones.
+      Those repairs made survival possible but did not fully revive him. A tiny
+      bead of Bakugo's explosive sweat, produced before his injury and moving
+      through his bloodstream, detonated internally and jump-started his heart.
+
+    rubric:
+      required_facts:
+        - Edgeshot entered Bakugo as thread and stitched or held together his damaged organs and bones.
+        - Edgeshot's repairs alone did not fully return Bakugo to life.
+        - A bead of Bakugo's own explosive sweat detonated internally and restarted his heart.
+
+      acceptable_variants:
+        - Referring to Edgeshot's technique as Foldabody or Thousand Sheet Pierce Zenith.
+        - Describing the sweat as nitroglycerin-like or as a stored product of Explosion.
+        - Saying the internal explosion resuscitated or jump-started Bakugo.
+
+      contradictions:
+        - Claiming that Edgeshot alone restored Bakugo to life without the sweat explosion.
+        - Claiming that an external electrical shock restarted Bakugo's heart.
+        - Claiming that Recovery Girl or another healer regenerated Bakugo's heart.
+
+    provenance:
+      - label: "Official anime page: Episode 162"
+        url: https://heroaca.com/episodes/final/ep162/
+      - label: "Official VIZ release: Manga Chapter 405"
+        url: https://www.viz.com/shonenjump/my-hero-academia-chapter-405/chapter/40762
+      - label: "Episode 162 adaptation and plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Episode_162
+      - label: "Chapter 405 plot summary"
+        url: https://myheroacademia.fandom.com/wiki/Chapter_405
+      - label: "Bakugo history and Quirk summary"
+        url: https://myheroacademia.fandom.com/wiki/Katsuki_Bakugo
